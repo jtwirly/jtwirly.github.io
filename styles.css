@@ -17,7 +17,7 @@ header, footer {
     padding: 20px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
     margin: 0;
     padding-bottom: 10px;
 }
@@ -92,13 +92,13 @@ footer p {
 
 /* Resume page specific styles */
 
-.experience, .education {
-    border: 1px solid #ccc;
-    margin: 0;
+.work-experience, .education {
+    border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
-.experience h3, .education h3 {
+.work-experience h3, .education h3 {
     margin: 0;
     padding-bottom: 10px;
 }
